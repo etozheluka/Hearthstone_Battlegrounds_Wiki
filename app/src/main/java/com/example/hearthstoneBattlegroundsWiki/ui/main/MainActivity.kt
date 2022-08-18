@@ -2,11 +2,11 @@ package com.example.dota2herowiki.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.viewpager.widget.ViewPager
+import androidx.navigation.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.dota2herowiki.R
 import com.example.dota2herowiki.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        binding.viewPager2.adapter = com.example.dota2herowiki.adapter.ViewPager(this)
+        binding.viewPager2.adapter =
+            com.example.hearthstoneBattlegroundsWiki.adapter.ViewPager(this)
 
         TabLayoutMediator(binding.tabs, binding.viewPager2) { tab, position ->
             binding.viewPager2.currentItem = 0

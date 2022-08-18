@@ -1,11 +1,14 @@
 package com.example.dota2herowiki.ui.main.fragments
 
+import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import androidx.navigation.fragment.findNavController
+import androidx.viewpager2.widget.ViewPager2
 import com.example.dota2herowiki.adapter.MyListAdapter
 import com.example.dota2herowiki.databinding.FragmentMainBinding
 import com.example.dota2herowiki.ui.main.fragments.baseFragment.BaseFragment

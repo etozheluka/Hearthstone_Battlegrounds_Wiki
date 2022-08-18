@@ -1,4 +1,4 @@
-package com.example.dota2herowiki.ui.main.fragments
+package com.example.hearthstoneBattlegroundsWiki.ui.main.fragments
 
 import android.util.Log
 import android.view.View

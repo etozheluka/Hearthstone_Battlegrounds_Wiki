@@ -6,4 +6,6 @@
     <string name="four">Tavern Four</string>
     <string name="five">Tavern Five</string>
     <string name="six">Tavern Six</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -12,6 +12,7 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
         app:tabMode="scrollable"
+        android:backgroundTint="#99E9D6AB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
