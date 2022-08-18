@@ -1,4 +1,4 @@
-package com.example.dota2herowiki.ui.main.fragments
+package com.example.hearthstoneBattlegroundsWiki.ui.main.fragments
 
 import android.util.Log
 import android.view.View
@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 
 class FifthFragment : BaseFragment<FragmentMainBinding>(FragmentMainBinding::inflate) {
 
-    private val viewModel: FifthViewModel by viewModels()
+    override val viewModel: FifthViewModel by viewModels()
     private val adapter by lazy {
         MyListAdapter()
     }

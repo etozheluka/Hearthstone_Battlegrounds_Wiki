@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 class SecondFragment : BaseFragment<FragmentMainBinding>(FragmentMainBinding::inflate) {
 
 
-    private val viewModel: SecondViewModel by viewModels()
+    override val viewModel: SecondViewModel by viewModels()
     private val adapter by lazy {
         MyListAdapter()
     }

@@ -6,7 +6,7 @@
     android:background="@color/mainColor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.fragments.MainFragment">
+    tools:context="com.example.hearthstoneBattlegroundsWiki.ui.main.fragments.MainFragment">
 
     <ProgressBar
         android:id="@+id/progressBar"

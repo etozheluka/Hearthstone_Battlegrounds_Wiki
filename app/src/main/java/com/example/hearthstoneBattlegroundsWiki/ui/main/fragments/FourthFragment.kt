@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 
 class FourthFragment : BaseFragment<FragmentMainBinding>(FragmentMainBinding::inflate) {
 
-    private val viewModel: FourthViewModel by viewModels()
+    override val viewModel: FourthViewModel by viewModels()
     private val adapter by lazy {
         MyListAdapter()
     }
