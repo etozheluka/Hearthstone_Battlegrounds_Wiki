@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CardWiki</string>
+    <string name="one">Tavern One</string>
+    <string name="two">Tavern Two</string>
+    <string name="three">Tavern Three</string>
+    <string name="four">Tavern Four</string>
+    <string name="five">Tavern Five</string>
+    <string name="six">Tavern Six</string>
+</resources>
